@@ -24,3 +24,7 @@ stages{
 stage ('complie')
 steps
 }
+
+
+some stepd need to be updated in the local machine 
+
