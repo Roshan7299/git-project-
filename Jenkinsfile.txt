@@ -7,4 +7,15 @@ pipeline {
       }
     }
   }
+pipeline {
+  agent any
+  stages {
+    stage('Complie') {
+      steps {
+        sh 'echo "this is the new commit i made in the git"'
+      }
+    }
+  }
 }
+
+
